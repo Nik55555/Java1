@@ -10,6 +10,10 @@ public class Main {
         return x + y;
     }
 
+    static int addition1(int x, int y) {
+        return x + y;
+    }
+
     public static void main(String[] args) {
         String hello = "Hello World!";
         println(hello);

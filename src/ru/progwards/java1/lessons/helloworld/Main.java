@@ -17,5 +17,8 @@ public class Main {
         int result = addition(7, 18);
         System.out.print("Сумма равна: ");
         System.out.println(result);
+
+        System.out.print("Сумма равна: " + result);
+
     }
 }

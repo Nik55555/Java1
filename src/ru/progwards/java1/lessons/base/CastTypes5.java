@@ -2,7 +2,7 @@ package ru.progwards.java1.lessons.base;
 
 public class CastTypes5 {
     public static void main(String[] args) {
-        double doubleValue = 123.5555555555555;
+        double doubleValue = 9999999999999999999999999.55555;
 
         long longValue = (long)doubleValue;
         int intValue = (int)doubleValue;
@@ -16,11 +16,7 @@ public class CastTypes5 {
         System.out.println("shortValue = " + shortValue);
         System.out.println("byteValue  = " + byteValue);
 
-        System.out.println("\nlongValue  = " + Long.toHexString(longValue));
-        System.out.println("intValue   = " + Integer.toHexString(intValue));
-        System.out.println("shortValue = " +
-                Integer.toHexString(Short.toUnsignedInt(shortValue)));
-        System.out.println("byteValue  = " +
-                Integer.toHexString(Byte.toUnsignedInt(byteValue)));
+        System.out.println("\nLong.MAX_VALUE    = " + Long.MAX_VALUE);
+        System.out.println("Integer.MAX_VALUE = " + Integer.MAX_VALUE);
     }
 }
